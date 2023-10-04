@@ -4,7 +4,36 @@
 }
 
 body {
+    margin: 0;
+}
+
+.header {
+    display: flex;
     font-family: AnonymousPro;
-    
     font-size: 32px;
+    color: white;
+    background-color: black;
+    margin: 0;
+    padding: 12px 32px;
+    align-items: center;
+    
+}
+
+.header_links {
+    display: flex;
+    flex-direction: row;
+    font-size: 22px;
+    gap: 10px;
+    margin: 0;
+}
+
+.logo {
+    margin-right: auto;
+}
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
 }
