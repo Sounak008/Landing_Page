@@ -10,7 +10,7 @@ body {
 .header {
     display: flex;
     font-family: AnonymousPro;
-    font-size: 32px;
+    font-size: 5.3vh;
     color: white;
     background-color: black;
     margin: 0;
@@ -22,7 +22,7 @@ body {
 .header_links {
     display: flex;
     flex-direction: row;
-    font-size: 22px;
+    font-size: 3.3vh;
     gap: 10px;
     margin: 0;
     color: blue;
