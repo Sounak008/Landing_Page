@@ -19,7 +19,7 @@ body {
     align-items: center;
     padding-right: 0;
     max-width: 100vw;
-    
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19)
 }
 
 .header_links {
@@ -57,5 +57,9 @@ a {
 .header.text_logo {
     padding-left: 0;
     display: flex;
-   
 }
+
+.text_logo {
+    box-shadow: none;
+}
+
