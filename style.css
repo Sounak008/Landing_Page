@@ -11,11 +11,11 @@ body {
 .header {
     display: flex;
     font-family: AnonymousPro;
-    font-size: 40px;
+    font-size: 37px;
     color: white;
     background-color: rgb(27, 27, 27);
     margin: 0;
-    padding: 12px 180px;
+    padding: 8px 220px;
     align-items: center;
     
 }
@@ -30,7 +30,9 @@ body {
 }
 
 .logo {
-    margin-right: auto;
+    
+    height: 43px;
+    width: 23px;
 }
 ul {
     list-style-type: none;
@@ -39,4 +41,15 @@ ul {
 a {
     text-decoration: none;
     color: inherit;
+}
+.full_logo{
+    gap: 15px;
+    display:flex;
+    margin-right: auto;
+    align-items: center;
+
+}
+
+.header.text_logo {
+    padding-left: 0;
 }
