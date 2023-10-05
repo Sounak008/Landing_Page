@@ -14,9 +14,10 @@ body {
     font-size: 37px;
     color: white;
     background-color: rgb(27, 27, 27);
-    margin: 0;
-    padding: 8px 220px;
+    margin: auto;
+    padding: 8px 100px;
     align-items: center;
+    padding-right: 0;
     
 }
 
@@ -27,6 +28,8 @@ body {
     gap: 24px;
     margin: 0;
     color: white;
+    margin-right: auto;
+    padding-right: 100px;
 }
 
 .logo {
@@ -45,11 +48,13 @@ a {
 .full_logo{
     gap: 15px;
     display:flex;
-    margin-right: auto;
     align-items: center;
-
+    margin-right: auto;
+    
 }
 
 .header.text_logo {
     padding-left: 0;
+    display: flex;
+   
 }
