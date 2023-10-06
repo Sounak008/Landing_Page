@@ -1,66 +1,63 @@
 @font-face {
-    font-family: AnonymousPro;
-    src: url(Fonts/AnonymousPro-1_002/AnonymousPro-1.002.001/Anonymous\ Pro\ B.woff);
+  font-family: AnonymousPro;
+  src: url(Fonts/AnonymousPro-1_002/AnonymousPro-1.002.001/Anonymous\ Pro\ B.woff);
 }
 
 body {
-    margin: 0;
-    min-height: 100vh;
+  margin: 0;
+  min-height: 100vh;
 }
 
 .header {
-    display: flex;
-    font-family: AnonymousPro;
-    font-size: 37px;
-    color: white;
-    background-color: rgb(27, 27, 27);
-    margin: auto;
-    padding: 20px 100px;
-    align-items: center;
-    padding-right: 0;
-    max-width: 100vw;
-    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+  display: flex;
+  font-family: AnonymousPro;
+  font-size: 37px;
+  color: white;
+  background-color: rgb(27, 27, 27);
+  margin: auto;
+  padding: 20px 100px;
+  align-items: center;
+  padding-right: 0;
+  max-width: 100vw;
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .header_links {
-    display: flex;
-    flex-direction: row;
-    font-size: 22px;
-    gap: 24px;
-    margin: 0;
-    color: white;
-    margin-right: auto;
-    padding-right: 100px;
-    opacity: 0.7;
+  display: flex;
+  flex-direction: row;
+  font-size: 22px;
+  gap: 24px;
+  margin: 0;
+  color: white;
+  margin-right: auto;
+  padding-right: 100px;
+  opacity: 0.7;
 }
 
 .logo {
-    
-    height: 43px;
-    width: 23px;
+  height: 43px;
+  width: 23px;
 }
 ul {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 a {
-    text-decoration: none;
-    color: inherit;
+  text-decoration: none;
+  color: inherit;
 }
-.full_logo{
-    gap: 15px;
-    display:flex;
-    align-items: center;
-    margin-right: auto;
-    
+.full_logo {
+  gap: 15px;
+  display: flex;
+  align-items: center;
+  margin-right: auto;
 }
 
 .header.text_logo {
-    padding-left: 0;
-    display: flex;
+  padding-left: 0;
+  display: flex;
 }
 
 .text_logo {
-    box-shadow: none;
+  box-shadow: none;
 }
-
