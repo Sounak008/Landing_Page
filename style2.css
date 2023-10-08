@@ -1,9 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@font-face {
+  font-family: AnonymousPro;
+  src: url(Fonts/AnonymousPro-1_002/AnonymousPro-1.002.001/Anonymous\ Pro\ B.woff);
+}
 .intro {
   background-color: rgb(27, 27, 27);
   font-family: "Roboto", sans-serif;
-  padding: 90px;
+  padding: 50px;
   justify-content: center;
   align-items: center;
   display: flex;
@@ -13,14 +17,16 @@
   flex-direction: row;
   color: white;
   margin: 0;
-  font-size: 48px;
+  font-size: 60px;
   font-weight: 900;
+  margin-bottom: 10px;
 }
 
 .imagetop {
   display: flex;
   width: 350px;
   height: 350px;
+  border-radius: 10px;
 }
 
 .introduction {
@@ -30,10 +36,36 @@
   display: flex;
   flex-direction: row;
   color: white;
-  font-size: 18px;
+  font-size: 20px;
+  margin-bottom: 20px;
 }
 
 .top_text {
   margin-right: 50px;
-  flex-basis: 400px;
+  flex-basis: 500px;
+  text-align: left;
+}
+
+.hero_button {
+  font-family: Roboto;
+  width: 115px;
+  margin: 0;
+  font-size: 18px;
+  font-weight: 900;
+  padding: 6.5px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+  border: 3px solid #FEBD14;
+  background-color: rgb(24, 24, 24);
+  color: lightgray;
+  transition: color 0.5s, border-color 0.5s;
+  gap: 6px;
+}
+
+.hero_button:hover {
+  border-color: grey;
+  color: #FEBD14;
+  cursor: pointer;
 }
