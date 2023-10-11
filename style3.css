@@ -18,11 +18,12 @@
   border: 5px solid rgb(87, 87, 87);
   box-shadow: 0 0 50px rgb(0, 0, 0);
   transition: 0.5s;
+  margin-bottom: 0;
 }
 
 .pro1 {
   display: flex;
-  gap: 8px;
+  gap: 5px;
   flex-direction: column;
   justify-content: center;
   align-items: center;

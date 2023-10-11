@@ -20,6 +20,7 @@ body {
   padding-right: 0;
   max-width: 100vw;
   box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: 0.2s;
 }
 
 .header_links {
@@ -60,4 +61,16 @@ a {
 
 .text_logo {
   box-shadow: none;
+}
+html {
+  background-color: rgb(27,27,27);
+}
+
+.header:hover, .about:hover, .proj:hover, .contact:hover {
+  color: #febd14;
+  opacity: 1;
+}
+
+.proj, .about, .contact {
+  transition: 0.2s;
 }
